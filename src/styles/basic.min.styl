@@ -1,0 +1,22 @@
+GRAY_LIGHT = #f5f5f5
+WHITE_LIGHT = white
+
+borderRadius(args)
+	border-radius args
+	-moz-border-radius args
+	-webkit-border-radius args
+
+boxShadow(args)
+	-webkit-box-shadow args
+	-moz-box-shadow args
+	box-shadow args
+
+body
+	background-color GRAY_LIGHT
+
+.box
+	padding 10px
+	margin-top 50px
+	borderRadius(2px)
+	background-color WHITE_LIGHT
+	boxShadow(0px 1px 1px 0px rgba(0,0,0,0.2))
